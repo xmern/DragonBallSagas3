@@ -9,7 +9,7 @@ class Texture(Sprite):
         self.opacity = 0
         self.rect.x = x
         self.rect.y = y
-        self.transparency = 200
+        self.transparency = 255
         #self.image = self.scaleImage()
     def scaleImage(self):
         return Scale(self.image, (self.rect.w*self.scale, self.rect.h *self.scale))
